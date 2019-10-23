@@ -3,9 +3,6 @@ import sys
 import time
 
 import pandas
-
-os.system(f"{sys.executable} -m pip install -U pytd==0.8.0 td-client")
-
 import pytd
 import tdclient
 

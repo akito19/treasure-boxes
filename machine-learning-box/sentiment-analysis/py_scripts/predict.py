@@ -6,7 +6,6 @@ import time
 
 from tf_utils.common import get_export_dir
 
-os.system(f"{sys.executable} -m pip install -U td-client")
 
 def run(input_table="movie_review_test", database="sentiment"):
     import boto3

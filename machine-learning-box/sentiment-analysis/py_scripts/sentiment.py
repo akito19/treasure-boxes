@@ -41,7 +41,6 @@ def run(
     # Original code is published at official document of TensorFlow under Apache License Version 2.0
     # https://www.tensorflow.org/hub/tutorials/text_classification_with_tf_hub
 
-    os.system(f"{sys.executable} -m pip install -U pytd==0.8.0 td-client")
     os.system(f"{sys.executable} -m pip install tensorflow_hub")
 
     import tensorflow as tf

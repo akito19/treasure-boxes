@@ -1,8 +1,6 @@
 import os
 import sys
 
-os.system(f"{sys.executable} -m pip install -U pytd==0.8.0 td-client")
-
 import pytd.pandas_td as td
 import requests
 import json
